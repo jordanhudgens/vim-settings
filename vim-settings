@@ -94,39 +94,39 @@ set wildignore+=*vim/backups*
 set wildignore+=*sass-cache*
 set wildignore+=*DS_Store*
 set wildignore+=vendor/rails/**
-															set wildignore+=vendor/cache/**
-															set wildignore+=*.gem
-															set wildignore+=log/**
-															set wildignore+=tmp/**
-															set wildignore+=*.png,*.jpg,*.gif
+set wildignore+=vendor/cache/**
+set wildignore+=*.gem
+set wildignore+=log/**
+set wildignore+=tmp/**
+set wildignore+=*.png,*.jpg,*.gif
 
-															"
-															" ================ Scrolling ========================
+"
+" ================ Scrolling ========================
 
-															set scrolloff=8         "Start scrolling when we're 8 lines away from margins
-															set sidescrolloff=15
-															set sidescroll=1
+set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+set sidescrolloff=15
+set sidescroll=1
 
-															" ================ Search ===========================
+" ================ Search ===========================
 
-															set incsearch       " Find the next match as we type the search
-															set hlsearch        " Highlight searches by default
-															set ignorecase      " Ignore case when searching...
-															set smartcase       " ...unless we type a capital
+set incsearch       " Find the next match as we type the search
+set hlsearch        " Highlight searches by default
+set ignorecase      " Ignore case when searching...
+set smartcase       " ...unless we type a capital
 
-															" ================ Custom Settings ========================
-															" ===== Seeing Is Believing =====
-															" Assumes you have a Ruby with SiB available in the PATH
-															" If it doesn't work, you may need to `gem install seeing_is_believing -v 3.0.0.beta.6`
-															" ...yeah, current release is a beta, which won't auto-install
+" ================ Custom Settings ========================
+" ===== Seeing Is Believing =====
+" Assumes you have a Ruby with SiB available in the PATH
+" If it doesn't work, you may need to `gem install seeing_is_believing -v 3.0.0.beta.6`
+" ...yeah, current release is a beta, which won't auto-install
 
-															" Annotate every line
-															nmap <leader>b :%!seeing_is_believing --timeout 12 --line-length 500 --number-of-captures 300 --alignment-strategy chunk<CR>;
-															" Annotate marked lines
-															nmap <leader>n :%.!seeing_is_believing --timeout 12 --line-length 500 --number-of-captures 300 --alignment-strategy chunk --xmpfilter-style<CR>;
-															" Remove annotations
-															nmap <leader>c :%.!seeing_is_believing --clean<CR>;
-															" Mark the current line for annotation
-															nmap <leader>m A # => <Esc>
-															" Mark the highlighted lines for annotation
-															vmap <leader>m :norm A # => <Esc>
+" Annotate every line
+nmap <leader>b :%!seeing_is_believing --timeout 12 --line-length 500 --number-of-captures 300 --alignment-strategy chunk<CR>;
+" Annotate marked lines
+nmap <leader>n :%.!seeing_is_believing --timeout 12 --line-length 500 --number-of-captures 300 --alignment-strategy chunk --xmpfilter-style<CR>;
+" Remove annotations
+nmap <leader>c :%.!seeing_is_believing --clean<CR>;
+" Mark the current line for annotation
+nmap <leader>m A # => <Esc>
+" Mark the highlighted lines for annotation
+vmap <leader>m :norm A # => <Esc>
