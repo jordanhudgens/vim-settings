@@ -130,3 +130,5 @@ nmap <leader>c :%.!seeing_is_believing --clean<CR>;
 nmap <leader>m A # => <Esc>
 " Mark the highlighted lines for annotation
 vmap <leader>m :norm A # => <Esc>
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
