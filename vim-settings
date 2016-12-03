@@ -131,4 +131,9 @@ nmap <leader>m A # => <Esc>
 " Mark the highlighted lines for annotation
 vmap <leader>m :norm A # => <Esc>
 
+" Plugin call to ctrl p for fuzzy file search
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Window pane resizing
+nnoremap <silent> <Leader>[ :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> <Leader>] :exe "resize " . (winheight(0) * 2/3)<CR>
