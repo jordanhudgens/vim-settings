@@ -1,6 +1,4 @@
-## Vim Cheat Sheet 
-
-TODO: http://vimdoc.sourceforge.net/htmldoc/motion.html#motion.txt
+## Vim Cheat Sheet
 
 ### Navigation
 
