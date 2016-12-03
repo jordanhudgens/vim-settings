@@ -124,6 +124,12 @@
 - Repeat indenting: .
 
 
+## Commenting/Uncommenting
+
+- Comment: visual block select with CTRL-V then I# (insert # in the begining)
+- Uncomment: visual block select with CTRL-V then X (delete the first symbol on the line)
+
+
 ### Visual Mode
 
 - Changing multiple lines of text: control + v + shift + i + action + esc
