@@ -41,7 +41,7 @@
 - dw deletes current to end of current word (including trailing space)
 - db deletes current to beginning of current word
 - Delete current line: dd
-- Delete character in front: shift + j
+- Delete the line below: shift + j
 - Delete entire word: cw
 - Delet to the end of the line: shift + C
 - Delete multiple lines: d + number of lines + enter
