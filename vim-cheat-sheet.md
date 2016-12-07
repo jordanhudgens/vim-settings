@@ -61,10 +61,7 @@
 
 ### Find and Replace
 
-- select a chunk of code using capital V and the arrow keys (or j, k)
-	- type colon
-	- then type s/^/   /
-	- hit return
+- %s/<pattern>/<text to replace>
 
 
 ### Saving
