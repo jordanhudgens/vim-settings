@@ -61,7 +61,7 @@
 
 ### Find and Replace
 
-- %s/<pattern>/<text to replace>
+- %s/pattern/text to replace
 
 
 ### Saving
