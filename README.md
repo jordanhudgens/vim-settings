@@ -1,8 +1,3 @@
-## Vim Settings
+## Vim Resources
 
-> Make sure to use the [seeing_is_believing](https://github.com/jordanhudgens/seeing_is_believing) gem for rendering code in the editor.
-
-Keybindings for automated rendering of Ruby:
-
-- `,b` for rendering
-- `,c` for clearing
+> This is the repo for the Vim for Ruby Developers Course provided by [devCamp](https://devcamp.com)
