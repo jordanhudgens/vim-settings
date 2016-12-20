@@ -19,7 +19,7 @@
 - Forward to the next 'y': fy (case sensitive)
 
 
-### Editing 
+### Editing
 
 - Undo: u
 - Redo: ctrl + r
@@ -41,9 +41,9 @@
 - dw deletes current to end of current word (including trailing space)
 - db deletes current to beginning of current word
 - Delete current line: dd
-- Delete the line below: shift + j
+- Join the line below: shift + j
 - Delete entire word: cw
-- Delet to the end of the line: shift + C
+- Delete to the end of the line: shift + C
 - Delete multiple lines: d + number of lines + enter
 - Delete from current position to a specific line number: d<line number>G
 - Deleting all items in a file that start with a pattern: :g/< search term>/d
@@ -98,7 +98,7 @@
 - Insert
 - Visual
 - Replace
-- Command Line 
+- Command Line
 
 
 ### Multiple Files
@@ -116,7 +116,7 @@
 
 ### Indenting
 
-- Fix indenting when pasting: set paste in .vimrc file 
+- Fix indenting when pasting: set paste in .vimrc file
 - Indenting: visual mode + > or <
 - Repeat indenting: .
 
