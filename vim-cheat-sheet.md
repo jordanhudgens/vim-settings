@@ -35,7 +35,7 @@
 ### Deleting
 
 - d<leftArrow> will delete current and left character
-- d$ will delete from current position to end of line
+- d$ or D will delete from current position to end of line
 - d^ will delete from current backward to first non-white-space character
 - d0 will delete from current backward to beginning of line
 - dw deletes current to end of current word (including trailing space)
