@@ -245,3 +245,6 @@ let g:NERDTrimTrailingWhitespace = 1
 " Prettier install and config
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
+
+" Because node_modules shouldn't be ctrlp'd
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
